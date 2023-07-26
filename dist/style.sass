@@ -1,0 +1,23 @@
+@use 'variables' as var
+
+// Fonts
+@font-face
+    font-family: 'Pulp Display Regular'
+    src: url('#{var.$font-path}/PulpDisplay-Regular.ttf')
+
+@font-face
+    font-family: 'Pulp Display Light'
+    src: url('#{var.$font-path}/PulpDisplay-Light.ttf')
+
+@font-face
+    font-family: 'Pulp Display SemiBold'
+    src: url('#{var.$font-path}/PulpDisplay-SemiBold.ttf')
+
+@font-face
+    font-family: 'Pulp Display Bold'
+    src: url('#{var.$font-path}/PulpDisplay-Bold.ttf')
+
+// Styles
+body
+    font-family: Pulp Display Regular, sans-serif
+    background-image: '#{var.$img-path}/bg.png'

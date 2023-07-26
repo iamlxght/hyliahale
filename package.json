@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "sass": "^1.63.6",
+    "sass-fonts": "^3.0.6"
+  }
+}
