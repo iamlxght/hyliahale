@@ -1,22 +1,22 @@
 @font-face {
   font-family: "Pulp Display Regular";
-  src: url("./fonts/PulpDisplay-Regular.ttf");
+  src: url("public/fonts/PulpDisplay-Regular.ttf");
 }
 @font-face {
   font-family: "Pulp Display Light";
-  src: url("./fonts/PulpDisplay-Light.ttf");
+  src: url("public/fonts/PulpDisplay-Light.ttf");
 }
 @font-face {
   font-family: "Pulp Display SemiBold";
-  src: url("./fonts/PulpDisplay-SemiBold.ttf");
+  src: url("public/fonts/PulpDisplay-SemiBold.ttf");
 }
 @font-face {
   font-family: "Pulp Display Bold";
-  src: url("./fonts/PulpDisplay-Bold.ttf");
+  src: url("public/fonts/PulpDisplay-Bold.ttf");
 }
 body {
   font-family: Pulp Display Regular, sans-serif;
-  background-image: "./img/bg.png";
+  background-image: "public/img/bg.png";
 }
 
 /*# sourceMappingURL=style.css.map */
